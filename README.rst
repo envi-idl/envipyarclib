@@ -14,4 +14,4 @@ Install ENVI Py for ArcGIS Library using pip::
 Documentation
 =============
 
-For the full API Documentation visit: http://envi-py-for-arcgis-library.readthedocs.io
+For the full API documentation visit: http://envi-py-for-arcgis-library.readthedocs.io
