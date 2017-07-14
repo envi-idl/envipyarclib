@@ -1,0 +1,52 @@
+
+{
+  "name": "CreateGPToolbox",
+  "base_class": "IDLTaskFromProcedure",
+  "routine": "CreateGPToolbox",
+  "display_name": "Create GPToolbox",
+  "description": "Create a GPToolbox that wraps an ese service.",
+	"schema": "idltask_1.0",
+    "parameters": [
+         {
+			"name": "SERVICE_URL",
+			"display_name": "Service URL",
+			"type": "STRING",
+			"direction": "input",
+			"required": true,
+			"description": "The URL to the ese service."
+		  },
+		  {
+		    "name": "SERVICE_NAME",
+			"display_name": "Service Name",
+			"type": "STRING",
+			"direction": "input",
+			"required": true,
+			"description": "The name of the ese service to use."
+		  },
+		  {
+			"name": "TASK_NAMES",
+			"display_name": "Task Names",
+			"type": "STRINGARRAY",
+			"dimensions":"[*]",
+			"direction": "input",
+			"required": true,
+			"description": "An array of task names to add to the toolbox."
+		  },
+		  {
+			"name": "TOOLBOX_NAME",
+			"display_name": "Toolbox Name",
+			"type": "STRING",
+			"direction": "input",
+			"required": false,
+			"description": "The name of the generated toolbox. The ese service name is used if none specified."
+		  },
+		  {		  
+			"name": "OUTPUT_TOOLBOX_DIR",
+			"display_name": "Output Toolbox Directory",
+			"type": "STRING",
+			"direction": "input",
+			"required": false,
+			"description": "The output location of the toolbox file."
+		  }
+    ]
+}
