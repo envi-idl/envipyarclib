@@ -41,7 +41,7 @@ with open(os.path.join(here, 'README.rst')) as f:
     long_description = f.read()
 
 setup(name='envipyarclib',
-      version='1.0.4',
+      version='1.0.5',
       description='ENVI Py Client Utilities for ArcGIS',
       long_description=long_description,
       url='https://github.com/envi-idl/envipyarclib',
@@ -56,7 +56,13 @@ setup(name='envipyarclib',
           'envipyarclib': [
               'test/tasks/*.pro',
               'test/tasks/*.task',
-              'test/tasks/*.sav'
+              'test/tasks/*.sav',
+              'test/data/*.dat',
+              'test/data/*.hdr',
+              'test/data/*.shp',
+              'test/data/*.qtr',
+              'test/data/*.prj',
+              'test/data/*.shx'
           ]
       },
       license='MIT',

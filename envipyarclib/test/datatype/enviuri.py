@@ -22,7 +22,7 @@ class TestDataTypeENVIURI(unittest.TestCase):
 
     def test_datatype_enviuri_file_uri(self):
         """Tests the enviuri datatype with file uri."""
-        input = os.path.join(self.config.test_data_dir, 'qb_boulder_msi.dat')
+        input = os.path.join(self.config.test_data_dir, 'checkerboard.dat')
         result = arcpy.QA_ENVITaskEngine_DataType_ENVIURI_TEST(input)
         self.assertEqual(result[0], input)
 

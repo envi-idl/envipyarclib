@@ -115,6 +115,8 @@ def create_param_info(task_params, parameter_map):
         # Convert DataType
         data_type = task_param['type'].upper()
         if 'dimensions' in task_param:
+            if len(task_param['dimensions'].split(',')) > 1:
+                raise UnknownDataTypeError('Only one-dimensional arrays are supported.')
             data_type += 'ARRAY'
 
         if data_type in parameter_map:

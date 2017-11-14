@@ -22,7 +22,7 @@ class TestDataTypeENVIRaster(unittest.TestCase):
     def test_datatype_enviraster_basic(self):
         """Tests enviraster datatype."""
 
-        input_raster = os.path.join(self.config.test_data_dir, 'qb_boulder_msi_enviraster.dat')
+        input_raster = os.path.join(self.config.test_data_dir, 'checkerboard.dat')
         result = arcpy.qa_envitaskengine_datatype_enviraster_TEST(input_raster)
 
         # Verify result exists.

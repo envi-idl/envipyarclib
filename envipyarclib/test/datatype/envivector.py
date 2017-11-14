@@ -22,7 +22,7 @@ class TestDataTypeENVIVector(unittest.TestCase):
     def test_datatype_envivector_basic(self):
         """Tests envivector datatype."""
 
-        input_vector = os.path.join(self.config.test_data_dir, 'qb_boulder_msi_vectors.shp')
+        input_vector = os.path.join(self.config.test_data_dir, 'checkerboard_vectors.shp')
         result = arcpy.qa_envitaskengine_datatype_ENVIVector_TEST(input_vector)
 
         # Verify result exists.
@@ -35,7 +35,7 @@ class TestDataTypeENVIVector(unittest.TestCase):
         input_filename = os.path.splitext(os.path.basename(input_vector))[0]
 
         # Verify files
-        exp_extensions = ['.shp', '.shx', '.dbf', '.prj', '.shp.qtr']
+        exp_extensions = ['.shp', '.shx', '.prj', '.shp.qtr']
         for ext in exp_extensions:
 
             output_file = os.path.join(output_dir, output_filename + ext)

@@ -11,21 +11,21 @@
             "direction": "input",
             "parameterType": "required",
             "description": "",
-            "dataType": "BOOL[*,*,*,*,*,*,*,*]"
+            "dataType": "BOOL[*]"
         },
         {
             "name": "EXPECT_DIMENSIONS",
             "direction": "input",
             "parameterType": "required",
             "description": "",
-            "dataType": "INT[*,*,*,*,*,*,*,*]"
+            "dataType": "INT[*]"
         }, 
         {
             "name": "OUTPUT",
             "direction": "output",
             "parameterType": "required",
             "description": "",
-            "dataType": "BOOL[*,*,*,*,*,*,*,*]"
+            "dataType": "BOOL[*]"
         }
     ]
 }

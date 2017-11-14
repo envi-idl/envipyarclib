@@ -9,21 +9,21 @@
             "direction": "input",
             "required": true,
             "type": "STRINGARRAY",
-            "dimensions": "[*,*,*,*,*,*,*,*]"
+            "dimensions": "[*]"
         },
         {
             "name": "EXPECT_DIMENSIONS",
             "direction": "input",
             "required": true,
             "type": "STRINGARRAY",
-            "dimensions": "[*,*,*,*,*,*,*,*]"
+            "dimensions": "[*]"
         },        
         {
             "name": "OUTPUT",
             "direction": "output",
             "required": true,
             "type": "STRINGARRAY",
-            "dimensions": "[*,*,*,*,*,*,*,*]"
+            "dimensions": "[*]"
         }
     ]
 }

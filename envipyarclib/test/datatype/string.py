@@ -41,10 +41,3 @@ class TestDatatypeString(unittest.TestCase):
         result = arcpy.QA_ENVITaskEngine_DataType_String_TEST(input)
 
         self.assertEqual(result.getOutput(0), input)
-
-    def test_datatype_string_longstring(self):
-        """Tests the string datatype with a long string."""
-        inputString = "x" * 31846
-        result = arcpy.QA_IDLTaskEngine_DataType_String_TEST(inputString)
-
-        self.assertEqual(result.getOutput(0), inputString)

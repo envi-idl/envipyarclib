@@ -9,21 +9,21 @@
             "direction": "input",
             "required": true,
             "type": "BOOLEANARRAY",
-            "dimensions": "[*,*,*,*,*,*,*,*]"
+            "dimensions": "[*]"
         },
         {
             "name": "EXPECT_DIMENSIONS",
             "direction": "input",
             "required": true,
             "type": "INTARRAY",
-            "dimensions": "[*,*,*,*,*,*,*,*]"
+            "dimensions": "[*]"
         },        
         {
             "name": "OUTPUT",
             "direction": "output",
             "required": true,
             "type": "BOOLEANARRAY",
-            "dimensions": "[*,*,*,*,*,*,*,*]"
+            "dimensions": "[*]"
         }
     ]
 }
