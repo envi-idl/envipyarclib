@@ -27,8 +27,11 @@ pro qa_idltaskengine_datatype_stringarray, INPUT=input, $
   if (Isa(input, 'Collection')) then begin
     Message, 'INPUT is a collection and should not be.'
   endif
-  
+  help,expectDims
+  print,expectDims
   isDimensions = (Fix(Size(input,/DIMENSIONS), TYPE=expectType)).Trim()
+  help,isDimensions
+  print,isDimensions
   if (~ARRAY_EQUAL(isDimensions,expectDims)) then begin
     Message, 'INPUT is not of expected dimensions. IS: ' + $
       (isDimensions.ToString()).Join(',') + ' EXPECT:' + $

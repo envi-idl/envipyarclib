@@ -1,6 +1,6 @@
 
 coverage==4.1
-envipyengine==1.0.0
+envipyengine>=1.0.5
 pylint==1.5.4
 setuptools==19.2
 Sphinx==1.4.1

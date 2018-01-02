@@ -21,7 +21,7 @@ class TestDataTypeStringArray(unittest.TestCase):
     def test_datatype_stringarray_one_dimension(self):
         """Verify a one dimensional array of strings returns a semicolon separated string list."""
         input = ['foo', 'bar', 'baz']
-        expect_dims = [len(input)]
+        expect_dims = [str(len(input))]
         result = arcpy.QA_IDLTaskEngine_DataType_StringArray_TEST(input, expect_dims)
 
         self.assertEqual(result[0], ';'.join(str(i) for i in input))
