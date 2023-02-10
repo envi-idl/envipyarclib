@@ -15,11 +15,23 @@ class ENVIURI(ParamTemplate):
         # Input uses a composite data type of both defile and gpstring.
         # This allows for url strings while also providing file selection in the UI.
         if task_param['direction'].upper() == 'INPUT':
-            return Template('''
+            if task_param['is_directory']:
+                return Template('''
         $name = arcpy.Parameter(
             displayName="$displayName",
             name="$name",
-            datatype=["DEFile","GPString"],
+            datatype=["DEFolder", "GPString"],
+            parameterType="$paramType",
+            direction="$direction",
+            multiValue=$multiValue
+        )
+''')
+            else:
+                return Template('''
+        $name = arcpy.Parameter(
+            displayName="$displayName",
+            name="$name",
+            datatype=["DEFile", "GPString"],
             parameterType="$paramType",
             direction="$direction",
             multiValue=$multiValue

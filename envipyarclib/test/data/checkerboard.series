@@ -1,0 +1,115 @@
+[
+    {
+        "FILE_TYPE": "ENVISERIES",
+        "SPATIAL_EXTENTS": [40.010771959548528, -105.23120854770940, 40.004330241365572, -105.22278889235385],
+        "USE_CONNECTION_STRINGS": 1,
+        "PIXEL_SIZE": [3.2792856269632788e-005, 2.5217324364538253e-005],
+        "DATA_TYPE": 1,
+        "DATASET_SIZE": 786432.00000000000,
+        "DESCRIPTION": "Raster Series 2018-10-16T13-31-22Z",
+        "VERSION": "5.5.1",
+        "DATA_RANGE": [0.00000000000000000, 255.00000000000000]
+    },
+    {
+        "WAVELENGTH": [
+            485.00000000000000,
+            560.00000000000000,
+            660.00000000000000,
+            830.00000000000000
+        ],
+        "BAND_NAMES": [
+            "Band 1",
+            "Band 2",
+            "Band 3",
+            "Band 4"
+        ],
+        "SPATIAL_REFERENCE_TYPE": "STANDARD",
+        "DATASET_INDEX": 0,
+        "COLUMNS": 256,
+        "ROWS": 256,
+        "UPPER_LEFT_MAP": [480267.20000000001, 4428978.4000000004],
+        "UPPER_LEFT_PIXEL": [0.00000000000000000, 0.00000000000000000],
+        "FORMAT": "ENVI",
+        "URI": "C:\\Users\\jdecke04\\Documents\\workspace\\depot2\\envipy\\envipyarclib\\envipyarclib\\test\\data\\checkerboard.dat",
+        "PIXEL_SIZE": [
+            2.7999999999999998,
+            2.7999999999999998
+        ],
+        "BANDS": 4,
+        "BAND_RANGE": [
+            [0.00000000000000000, 255.00000000000000],
+            [0.00000000000000000, 255.00000000000000],
+            [0.00000000000000000, 255.00000000000000],
+            [128.00000000000000, 128.00000000000000]
+        ],
+        "COORDINATE_SYSTEM_STRING": "PROJCS[\"UTM_Zone_13N\",GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",500000.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-105.0],PARAMETER[\"Scale_Factor\",0.9996],PARAMETER[\"Latitude_Of_Origin\",0.0],UNIT[\"Meter\",1.0]]"
+    },
+    {
+        "WAVELENGTH": [
+            485.00000000000000,
+            560.00000000000000,
+            660.00000000000000,
+            830.00000000000000
+        ],
+        "BAND_NAMES": [
+            "Band 1",
+            "Band 2",
+            "Band 3",
+            "Band 4"
+        ],
+        "SPATIAL_REFERENCE_TYPE": "STANDARD",
+        "DATASET_INDEX": 0,
+        "COLUMNS": 256,
+        "ROWS": 256,
+        "UPPER_LEFT_MAP": [480267.20000000001, 4428978.4000000004],
+        "UPPER_LEFT_PIXEL": [0.00000000000000000, 0.00000000000000000],
+        "FORMAT": "ENVI",
+        "URI": "C:\\Users\\jdecke04\\Documents\\workspace\\depot2\\envipy\\envipyarclib\\envipyarclib\\test\\data\\checkerboard.dat",
+        "PIXEL_SIZE": [
+            2.7999999999999998,
+            2.7999999999999998
+        ],
+        "BANDS": 4,
+        "BAND_RANGE": [
+            [0.00000000000000000, 255.00000000000000],
+            [0.00000000000000000, 255.00000000000000],
+            [0.00000000000000000, 255.00000000000000],
+            [128.00000000000000, 128.00000000000000]
+        ],
+        "COORDINATE_SYSTEM_STRING": "PROJCS[\"UTM_Zone_13N\",GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",500000.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-105.0],PARAMETER[\"Scale_Factor\",0.9996],PARAMETER[\"Latitude_Of_Origin\",0.0],UNIT[\"Meter\",1.0]]"
+    },
+    {
+        "WAVELENGTH": [
+            485.00000000000000,
+            560.00000000000000,
+            660.00000000000000,
+            830.00000000000000
+        ],
+        "BAND_NAMES": [
+            "Band 1",
+            "Band 2",
+            "Band 3",
+            "Band 4"
+        ],
+        "SPATIAL_REFERENCE_TYPE": "STANDARD",
+        "DATASET_INDEX": 0,
+        "COLUMNS": 256,
+        "ROWS": 256,
+        "UPPER_LEFT_MAP": [480267.20000000001, 4428978.4000000004],
+        "UPPER_LEFT_PIXEL": [0.00000000000000000, 0.00000000000000000],
+        "FORMAT": "ENVI",
+        "URI": "C:\\Users\\jdecke04\\Documents\\workspace\\depot2\\envipy\\envipyarclib\\envipyarclib\\test\\data\\checkerboard.dat",
+        "PIXEL_SIZE": [
+            2.7999999999999998,
+            2.7999999999999998
+        ],
+        "BANDS": 4,
+        "BAND_RANGE": [
+            [0.00000000000000000, 255.00000000000000],
+            [0.00000000000000000, 255.00000000000000],
+            [0.00000000000000000, 255.00000000000000],
+            [128.00000000000000, 128.00000000000000]
+        ],
+        "COORDINATE_SYSTEM_STRING": "PROJCS[\"UTM_Zone_13N\",GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",500000.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-105.0],PARAMETER[\"Scale_Factor\",0.9996],PARAMETER[\"Latitude_Of_Origin\",0.0],UNIT[\"Meter\",1.0]]"
+    }
+]

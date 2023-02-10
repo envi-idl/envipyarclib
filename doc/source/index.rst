@@ -1,7 +1,7 @@
 .. _envipyarclib:
 
 ********************************************
-ENVI :sup:`®` Py for ArcGIS :sup:`®` Library
+ENVI Py for ArcGIS Library
 ********************************************
 
 .. include:: <isonum.txt>
