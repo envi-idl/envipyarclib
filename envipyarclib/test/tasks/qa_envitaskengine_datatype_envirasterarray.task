@@ -1,0 +1,34 @@
+{
+    "name" : "qa_envitaskengine_datatype_envirasterarray",
+    "base_class" : "ENVITaskFromProcedure",
+    "routine" : "qa_envitaskengine_datatype_envirasterarray",
+    "display_name" : "qa_envitaskengine_datatype_envirasterarray",
+    "description" : "",
+    "schema" : "envitask_3.1",
+    "parameters": [
+        {
+            "name": "INPUT",
+            "direction": "input",
+            "description": "",
+            "type": "ENVIRASTERARRAY",
+            "dimensions": "[*]",
+            "required": true
+        },
+        {
+            "name": "SIZE",
+            "direction": "input",
+            "description": "",
+            "type": "INTARRAY",
+            "dimensions": "[*]",
+            "required": true
+        },
+        {
+            "name": "OUTPUT",
+            "direction": "output",
+            "description": "",
+            "type": "ENVIRASTERARRAY",
+            "dimensions": "[*]",
+            "required": true
+        }
+    ]
+}

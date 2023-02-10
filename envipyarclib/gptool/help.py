@@ -41,7 +41,7 @@ def create(filename, task, alias):
     idAbs = ET.SubElement(dataIdInfo, 'idAbs')
     idAbs.text = ''.join((HTML_BEGIN, task.description, HTML_END))
     idCredit = ET.SubElement(dataIdInfo, 'idCredit')
-    idCredit.text = '(c) 2017 Exelis Visual Information Solutions, Inc.'
+    idCredit.text = '(c) 1988-2022, L3Harris Geospatial Solutions, Inc. All rights reserved.'
     resTitle.text = task.name
     tree = ET.ElementTree(metadata)
     tree.write(filename)

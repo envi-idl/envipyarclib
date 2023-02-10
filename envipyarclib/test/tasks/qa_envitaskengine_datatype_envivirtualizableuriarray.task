@@ -1,0 +1,24 @@
+{
+    "name": "qa_envitaskengine_datatype_envivirtualizableuriarray",
+    "displayName": "qa_envitaskengine_datatype_envivirtualizableuriarray",
+    "baseClass": "ENVITaskFromProcedure",
+    "routine": "qa_envitaskengine_datatype_envivirtualizableuriarray",
+    "description": "",
+    "version": "5.3",
+    "parameters": [
+        {
+            "name": "INPUT",
+            "direction": "input",
+            "parameterType": "required",
+            "description": "",
+            "dataType": "ENVIVIRTUALIZABLEURI[*]"
+        },
+        {
+            "name": "OUTPUT",
+            "direction": "output",
+            "parameterType": "required",
+            "description": "",
+            "dataType": "ENVIVIRTUALIZABLEURI[*]"
+        }
+    ]
+}

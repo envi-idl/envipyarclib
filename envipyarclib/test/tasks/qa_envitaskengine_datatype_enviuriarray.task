@@ -1,0 +1,24 @@
+{
+    "name": "qa_envitaskengine_datatype_enviuriarray",
+    "displayName": "qa_envitaskengine_datatype_enviuriarray",
+    "baseClass": "ENVITaskFromProcedure",
+    "routine": "qa_envitaskengine_datatype_enviuriarray",
+    "description": "",
+    "version": "5.3",
+    "parameters": [
+        {
+            "name": "INPUT",
+            "direction": "input",
+            "parameterType": "required",
+            "description": "",
+            "dataType": "ENVIURI[*]"
+        },
+        {
+            "name": "OUTPUT",
+            "direction": "output",
+            "parameterType": "required",
+            "description": "",
+            "dataType": "ENVIURI[*]"
+        }
+    ]
+}

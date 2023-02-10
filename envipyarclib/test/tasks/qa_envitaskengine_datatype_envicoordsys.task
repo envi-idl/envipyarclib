@@ -1,0 +1,29 @@
+{
+    "name": "qa_envitaskengine_datatype_envicoordsys",
+    "baseClass": "ENVITaskFromProcedure",
+    "routine": "qa_envitaskengine_datatype_envicoordsys",
+    "displayName": "qa_envitaskengine_datatype_envicoordsys",
+    "description": "qa_envitaskengine_datatype_envicoordsys",
+    "executionType": "Asynchronous",
+    "version": "5.3",
+    "invocationType": "keywords",
+    "taskReset": "no",
+    "parameters": [
+        {
+            "name": "INPUT",
+            "displayName": "input",
+            "description": "input",
+            "dataType": "ENVICoordSys",
+            "direction": "input",
+            "parameterType": "required"
+        },
+        {
+            "name": "OUTPUT",
+            "displayName": "output",
+            "description": "output",
+            "dataType": "ENVICoordSys",
+            "direction": "output",
+            "parameterType": "required"
+        }
+    ]
+}

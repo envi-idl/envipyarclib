@@ -41,11 +41,24 @@ with open(os.path.join(here, 'README.rst')) as f:
     long_description = f.read()
 
 setup(name='envipyarclib',
-      version='1.0.6',
+      version='1.0.11',
       description='ENVI Py Client Utilities for ArcGIS',
       long_description=long_description,
       url='https://github.com/envi-idl/envipyarclib',
-      author='Exelis Visual Information Solutions, Inc.',
+      author='Harris Geospatial Solutions, Inc.',
+      extras_require={
+          'dev': [
+            'coverage',
+            'envipyengine>=1.0.5',
+            'pylint',
+            'Sphinx',
+            'Sphinx-PyPI-upload',
+            'sphinx_rtd_theme',
+            'twine',
+            'unittest-xml-reporting',
+            'wheel'
+          ]
+      },
       packages=['envipyarclib',
                 'envipyarclib.gptool',
                 'envipyarclib.gptool.parameter',
@@ -62,7 +75,11 @@ setup(name='envipyarclib',
               'test/data/*.shp',
               'test/data/*.qtr',
               'test/data/*.prj',
-              'test/data/*.shx'
+              'test/data/*.shx',
+              'test/data/*.xml',
+              'test/data/*.gif',
+              'test/data/*.series',
+              'test/data/*.h5'
           ]
       },
       license='MIT',

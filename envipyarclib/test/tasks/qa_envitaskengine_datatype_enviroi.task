@@ -1,0 +1,24 @@
+{
+    "name" : "qa_envitaskengine_datatype_enviroi",
+    "base_class" : "ENVITaskFromProcedure",
+    "routine" : "qa_envitaskengine_datatype_enviroi",
+    "display_name" : "qa_envitaskengine_datatype_enviroi",
+    "description" : "",
+    "schema" : "envitask_3.1",
+    "parameters": [
+        {
+            "name": "INPUT",
+            "direction": "input",
+            "description": "",
+            "type": "ENVIROI",
+            "required": true
+        },
+        {
+            "name": "OUTPUT",
+            "direction": "output",
+            "description": "",
+            "type": "ENVIROI",
+            "required": true
+        }
+    ]
+}
